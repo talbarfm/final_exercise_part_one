@@ -42,6 +42,7 @@ Use Python's `async/await` syntax, together with the builtin `asyncio` package.
 - Your code should ignore slides without text.
 - Your code should handle weird whitespaces within presentation text.
 - The name of the output file should be the same as the original presentation (but with a `.json` suffix).
+- Add a single "system test" using pytest that runs the entire script using an input demo presentation, and checks that the output file exists. Make sure to include the presentation in github repository, and acces it using a relative path. 
 
 ### Bonus Requirements
 
